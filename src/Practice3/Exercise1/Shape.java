@@ -1,12 +1,12 @@
-package Practice3;
+package Practice3.Exercise1;
 
 public abstract class Shape {
     protected String color;
     protected boolean filled;
 
     public Shape() {
-        color = "default";
-        filled = false;
+        this.color = "red";
+        this.filled = true;
     }
 
     public Shape(String color, boolean filled) {
@@ -35,6 +35,6 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape[color=" + color + ", filled=" + filled + "]";
+        return "Shape [color=" + color + ", filled=" + filled + "]";
     }
 }

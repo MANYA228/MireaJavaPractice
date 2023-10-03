@@ -1,13 +1,14 @@
-package Practice3;
-
+package Practice3.Exercise1;
 public class Circle extends Shape {
     protected double radius;
 
     public Circle() {
-        radius = 1.0;
+        super();
+        this.radius = 1.0;
     }
 
     public Circle(double radius) {
+        super();
         this.radius = radius;
     }
 
@@ -36,6 +37,6 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle[" + super.toString() + ", radius=" + radius + "]";
+        return "Circle [radius=" + radius + ", " + super.toString() + "]";
     }
 }
