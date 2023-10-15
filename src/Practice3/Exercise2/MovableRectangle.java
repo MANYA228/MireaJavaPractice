@@ -1,6 +1,6 @@
 package Practice3.Exercise2;
 
-public class MovableRectangle implements Movable {
+/*public class MovableRectangle implements Movable {
     private MovablePoint topLeft;     // Верхняя левая точка
     private MovablePoint bottomRight; // Нижняя правая точка
 
@@ -47,4 +47,4 @@ public class MovableRectangle implements Movable {
     public String toString() {
         return "MovableRectangle[topLeft=" + topLeft + ", bottomRight=" + bottomRight + "]";
     }
-}
+} */
