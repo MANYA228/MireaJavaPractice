@@ -1,4 +1,4 @@
-package Practice4.Exercise4;
+package Practice5.Exercise4;
 
 enum ComputerBrand {
     DELL,

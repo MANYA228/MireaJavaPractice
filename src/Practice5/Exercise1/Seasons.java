@@ -1,4 +1,4 @@
-package Practice4.Exercise1;
+package Practice5.Exercise1;
 
 enum Seasons {
     Весна("прохладное", "Холодное время года"),

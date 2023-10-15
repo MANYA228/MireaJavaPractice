@@ -1,4 +1,4 @@
-package Practice4.Exercise2;
+package Practice5.Exercise2;
 
 enum ClothingSize {
     XXS(32, "Детский размер"),

@@ -1,4 +1,4 @@
-package Practice4.Exercise2;
+package Practice5.Exercise2;
 
 class Atelier {
     public void dressWomen(Clothes[] clothes) {

@@ -1,4 +1,4 @@
-package Practice4.Exercise2;
+package Practice5.Exercise2;
 
 class Skirt extends Clothes implements WomenClothing {
     public Skirt(ClothingSize size, double cost, String color) {

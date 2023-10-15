@@ -1,4 +1,4 @@
-package Practice4.Exercise2;
+package Practice5.Exercise2;
 
 class Tie extends Clothes implements MenClothing {
     public Tie(ClothingSize size, double cost, String color) {

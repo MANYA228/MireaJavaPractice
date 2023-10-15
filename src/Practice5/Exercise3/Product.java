@@ -1,4 +1,4 @@
-package Practice4.Exercise3;
+package Practice5.Exercise3;
 
 class Product {
     private String name;

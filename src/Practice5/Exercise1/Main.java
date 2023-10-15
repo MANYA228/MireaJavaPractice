@@ -1,6 +1,4 @@
-package Practice4.Exercise1;
-
-import Practice4.Exercise1.Seasons;
+package Practice5.Exercise1;
 
 public class Main {
     public static void main(String[] args) {

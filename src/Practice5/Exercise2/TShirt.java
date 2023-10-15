@@ -1,4 +1,4 @@
-package Practice4.Exercise2;
+package Practice5.Exercise2;
 
 class TShirt extends Clothes implements MenClothing, WomenClothing {
     public TShirt(ClothingSize size, double cost, String color) {
