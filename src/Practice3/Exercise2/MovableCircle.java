@@ -2,7 +2,7 @@ package Practice3.Exercise2;
 
 public class MovableCircle implements Movable {
     private int radius;
-    private MovablePoint center;
+    MovablePoint center; // Change 'private' to default access
 
     public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
         this.center = new MovablePoint(x, y, xSpeed, ySpeed);
@@ -27,10 +27,5 @@ public class MovableCircle implements Movable {
     @Override
     public void moveRight() {
         center.moveRight();
-    }
-
-    @Override
-    public String toString() {
-        return "MovableCircle[center=" + center + ", radius=" + radius + "]";
     }
 }

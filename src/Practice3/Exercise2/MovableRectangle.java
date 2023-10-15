@@ -1,17 +1,12 @@
 package Practice3.Exercise2;
 
-/*public class MovableRectangle implements Movable {
-    private MovablePoint topLeft;     // Верхняя левая точка
-    private MovablePoint bottomRight; // Нижняя правая точка
+public class MovableRectangle implements Movable {
+    MovablePoint topLeft; // Change 'private' to default access
+    MovablePoint bottomRight; // Change 'private' to default access
 
     public MovableRectangle(int x1, int y1, int x2, int y2, int xSpeed, int ySpeed) {
-        // Проверяем, что скорости двух точек одинаковы
-        if (xSpeed != ySpeed) {
-            throw new IllegalArgumentException("Скорости верхней левой и нижней правой точек должны быть одинаковыми.");
-        }
-
-        topLeft = new MovablePoint(x1, y1, xSpeed, ySpeed);
-        bottomRight = new MovablePoint(x2, y2, xSpeed, ySpeed);
+        this.topLeft = new MovablePoint(x1, y1, xSpeed, ySpeed);
+        this.bottomRight = new MovablePoint(x2, y2, xSpeed, ySpeed);
     }
 
     @Override
@@ -38,13 +33,7 @@ package Practice3.Exercise2;
         bottomRight.moveRight();
     }
 
-    // Метод для проверки, что скорости двух точек одинаковы
-    public boolean areSpeedsEqual() {
-        return topLeft.getXSpeed() == bottomRight.getXSpeed() && topLeft.getYSpeed() == bottomRight.getYSpeed();
+    public boolean hasSameSpeed() {
+        return topLeft.xSpeed == bottomRight.xSpeed && topLeft.ySpeed == bottomRight.ySpeed;
     }
-
-    @Override
-    public String toString() {
-        return "MovableRectangle[topLeft=" + topLeft + ", bottomRight=" + bottomRight + "]";
-    }
-} */
+}

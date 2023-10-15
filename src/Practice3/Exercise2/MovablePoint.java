@@ -1,10 +1,10 @@
 package Practice3.Exercise2;
 
 public class MovablePoint implements Movable {
-    private int x;
-    private int y;
-    private int xSpeed;
-    private int ySpeed;
+    int x; // Change 'private' to default access
+    int y; // Change 'private' to default access
+    int xSpeed; // Change 'private' to default access
+    int ySpeed; // Change 'private' to default access
 
     public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
         this.x = x;
@@ -31,10 +31,5 @@ public class MovablePoint implements Movable {
     @Override
     public void moveRight() {
         x += xSpeed;
-    }
-
-    @Override
-    public String toString() {
-        return "MovablePoint[x=" + x + ", y=" + y + ", xSpeed=" + xSpeed + ", ySpeed=" + ySpeed + "]";
     }
 }
