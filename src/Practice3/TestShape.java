@@ -1,9 +1,9 @@
-package Practice3.Exercise1;
+package Practice3;
 
 public class TestShape {
     public static void main(String[] args) {
-        Practice3.Exercise1.Shape circle = new Circle(5.0, "blue", true);
-        Practice3.Exercise1.Shape rectangle = new Rectangle(4.0, 6.0, "green", false);
+        Shape circle = new Circle(5.0, "blue", true);
+        Shape rectangle = new Rectangle(4.0, 6.0, "green", false);
         Shape square = new Square(3.0, "red", true);
 
         System.out.println(circle.toString());
