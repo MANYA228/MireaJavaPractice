@@ -1,57 +1,8 @@
-package Practice5.Exercise3;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-
-// Класс, представляющий товар
-class Product {
-    private String name;
-    private double price;
-
-    public Product(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-}
-
-// Класс, представляющий каталог товаров
-class Catalog {
-    private String name;
-    private List<Product> products;
-
-    public Catalog(String name) {
-        this.name = name;
-        this.products = new ArrayList<>();
-    }
-
-    public void addProduct(Product product) {
-        products.add(product);
-    }
-
-    public List<Product> getProducts() {
-        return products;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
+package Practice4.Exercise1;
 
 // Класс, представляющий интернет-магазин
-Ь
 
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         // Создаем интернет-магазин
         OnlineStore store = new OnlineStore();
@@ -123,3 +74,4 @@ public class Main {
         }
     }
 }
+*/
